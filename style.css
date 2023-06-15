@@ -1,0 +1,57 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #333;
+  padding: clamp(20px, 20vw, 200px) 20px 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.color-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100px;
+}
+
+.input-color {
+  width: 300px;
+  height: 40px;
+}
+
+.orientation-p {
+  font-size: 30px;
+  color: #FFFF;
+}
+
+#orientation {
+  width: 300px;
+}
+
+.action-button {
+  width: 150px;
+  height: 40px;
+  font-size: 20px;
+  background-color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+.action-button:active {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+
